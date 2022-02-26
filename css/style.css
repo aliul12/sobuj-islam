@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Dosis', sans-serif;
+}
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;500;600;700;800&display=swap');
+
+.container{
+    width: 90%;
+    margin: auto;
+}
+/* header part */
+header{
+    background-color: white;
+    width: 100%;
+    float: left;
+}
+.logo-part{
+    width: 25%;
+    float: left;
+    padding: 15px;
+}
+.logo-part img{
+    width: 70%;
+}
+.menu-part{
+    width: 45%;
+    float: left;
+}
+.menu-part ul{
+    color: white;
+    text-align: center;
+}
+.menu-part li{
+    display: inline-block;
+    margin: 30px 10px;
+}
+.menu-part a{
+    color: rgb(168, 31, 31);
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+}
+.search-part{
+    width: 30%;
+    float: left;
+}
+input[type="search"]{
+    padding: 10px;
+    border-radius: 10px;
+    margin: 25px auto;
+}
+input::placeholder{
+    text-align: center;
+}
+/*hero section */
+#hero{
+    width: 100%;
+    float: left;
+    background-color: #223047;
+    color: #fff;
+    padding: 75px;
+}
+.hero-writing-part{
+    width: 50%;
+    float: left;
+    padding-top: 200px;
+}
+.hero-writing-part h1{
+    font-size: 35px;
+}
+.hero-writing-part p {
+    margin: 20px 0px;
+}
+.hero-btn {
+    margin: 30px 0px;
+}
+.btn-dark{
+    background-color: #00fff1;
+    padding: 10px;
+    border: blueviolet;
+    border-radius: 10px;
+    width: 150px;
+}
+.btn-light {
+    border: 1px solid gray;
+    padding: 10px;
+    background-color: transparent;
+    color: white;
+    border-radius: 10px;
+    margin-left: 10px;
+    width: 150px;
+}
+.hero-img-part {
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+.hero-img-part img {
+    margin-bottom: -150px;
+}
+/* services section */
+#services {
+    width: 100%;
+    float: left;
+    padding: 100px;
+}
+.aside {
+    color: #223047;
+    padding: 30px;
+    text-align: center;
+}
+/* info section */
+#info{
+    
+    width: 100%;
+    float: left;
+}
+.container .box {
+    position: relative;
+    width: calc(280px);
+    height: calc(180px);
+    float: left;
+    font-size: 13px;
+    text-align: center;
+    margin: 10px;
+    box-shadow: 0px 0px 0px 1px black;
+    border-radius: 5px;
+}
+/* fitur section */
+#middle {
+    width: 100%;
+    float: left;
+    background-color: #ebe8e8;
+    color: #2020e2;
+    padding: 65px;
+}
+.bmw-car img{
+    width: 50%;
+    float: left;
+    padding: 30px;
+}
+.bmw-car h2 {
+    width: 50%;
+    float: left;
+    color: #000000;
+    padding: 20px 10px;
+}
+.bmw-car p {
+    width: 50%;
+    float: left;
+    padding: 30px 10px;
+    color: #9999cc;
+}  
+/* ready section */
+#top{
+    width: 100%;
+    float: left;
+    background-color: white;
+    color: #fff;
+    padding: 75px;
+}
+.top-writing-part{
+    width: 50%;
+    float: left;
+    padding-top: 20px;
+    color: #000000;
+}
+.top-writing-part h1{
+    font-size: 35px;
+}
+.top-writing-part p {
+    margin: 20px 0px;
+}
+.top-btn {
+    margin: 30px 0px;
+    text-decoration: solid;
+}
+.btn-jiro{
+    background-color: #00fff1;
+    padding: 10px;
+    border: blueviolet;
+    border-radius: 10px;
+    width: 150px;
+    text-align: end;
+}
+.top-img-part {
+    width: 50%;
+    float: left;
+}
+.top-img-part img {
+    margin-bottom: -150px;
+}
+.top-img-part-1 {
+    width: 100%;
+    float: left;
+    padding: 100px 0px;
+}
+
+/* app section */
+#add {
+    width: 50%;
+    float: left;
+    background-color: #ffffff;
+    color: #e8ebf0;
+    padding: 75px;
+}
